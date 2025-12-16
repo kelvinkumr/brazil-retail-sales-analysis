@@ -47,27 +47,18 @@ Several new, high-value metrics were calculated for analysis:
 ## 📈 Key Findings & Insights
 
 ### 1. Overall Trends and Categories
-* **Revenue Trend:** [Describe the key trend from your monthly sales chart—e.g., "Sales show a strong seasonal peak around November/December of 2017, followed by a decline."]
-* **Top Categories:** The top revenue-generating categories are typically **[Insert your top 3 categories from Visualization B, e.g., 'Health & Beauty', 'Bed Bath & Table', 'Sports & Leisure']**.
+* **Revenue Trend:** Sales show a strong, consistent upward trend throughout 2017, culminating in a significant seasonal peak around **November/December 2017**, followed by stabilization in 2018.
+* **Top Categories:** The top revenue-generating categories are typically **Health & Beauty**, **Watches & Gifts**, and **Bed Bath & Table**, indicating strong consumer demand for self-care and home goods.
 
 ### 2. Customer Satisfaction
 * The overall satisfaction is high, with over **74%** of orders receiving a 4 or 5-star rating.
-* **Top Rated Categories:** Categories like **[Insert one or two highly-rated categories from your chart, e.g., 'Books - Imported' and 'Food & Drink']** consistently achieve the highest average review scores, indicating strong product quality or service in those segments.
+* **Top Rated Categories:** Categories like **Books - Imported** and **Food & Drink** consistently achieve the highest average review scores (often >4.5), indicating strong product quality or service in those segments.
 
 ### 3. Seller Performance
-* **Geographic Concentration:** Seller activity is heavily concentrated in the state of **SP (São Paulo)**, which dominates the total revenue.
-* **Revenue Skew:** Revenue is highly skewed, with the top individual sellers contributing a disproportionately large share of total sales.
+* **Geographic Concentration:** Seller activity is heavily concentrated in the state of **SP (São Paulo)**, which dominates the total revenue. This suggests a high reliance on logistics originating from the southeast region.
+* **Revenue Skew:** Revenue is highly skewed, with the top 10 individual sellers contributing a disproportionately large share of total sales, highlighting the need for strategic relationship management with key partners.
 
 ### 4. Geospatial Logistics
 * **Distance Calculation:** The **`distance_km`** metric was successfully calculated for almost all orders, enabling logistical analysis.
-* **Delivery Time Impact:** [Insert a brief summary of your Delivery Time vs. Distance finding—e.g., "Delivery time increases linearly with distance, demonstrating significant logistical challenge for inter-state orders (>1000km)."]
+* **Delivery Time Impact:** Delivery time increases significantly with distance; orders traveling over 2,000 km take, on average, over **35 days**, demonstrating significant logistical challenge for long-distance fulfillment. **However, average review scores remain stable across all distance bands.**
 
----
-
-## 🚀 How to Replicate the Analysis
-1.  **Dependencies:** Ensure you have Python 3.x and the following libraries installed:
-    ```bash
-    pip install pandas numpy matplotlib seaborn
-    ```
-2.  **Data:** Place all Olist CSV files (8 total) in the same directory as the notebook/script.
-3.  **Execution:** Run the Jupyter Notebook sequentially from the start. The code is designed to rebuild the final cleaned `master_df` and generate all visualizations in order.
