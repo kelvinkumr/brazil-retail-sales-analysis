@@ -29,10 +29,6 @@ This project performs a deep-dive Exploratory Data Analysis (EDA) on the **Brazi
 * **Distribution:** Over **74%** of customers provided 4 or 5-star reviews.
 * **High Performers:** Niche categories like **Books (Imported)** and **Food & Drink** maintain the highest average scores (>4.5), indicating high product-market fit.
 
-### 3. Logistical Challenges (Geospatial Analysis)
-* **The Distance Gap:** Shipping distance is a major bottleneck. Orders traveling >2,000km average **35+ days** for delivery.
-* **Resilience:** Interestingly, customer satisfaction (Review Scores) remains stable even as distance increases, suggesting that Olist successfully manages customer expectations regarding long-haul shipping times.
-
 ---
 
 ## 🏗️ Data Engineering Pipeline
