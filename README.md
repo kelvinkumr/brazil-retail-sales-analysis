@@ -55,12 +55,6 @@ Calculated custom business metrics that were not in the original data:
 
 ---
 
-## 🧠 Challenges & Solutions
-* **Problem:** The Geolocation dataset contained multiple coordinates for the same ZIP code, causing "Data Explosion" (duplicate rows) during merges.
-* **Solution:** Aggregated the Geolocation data by ZIP code using `.groupby().mean()` to create a unique 1-to-1 mapping for Latitude and Longitude before merging.
-
----
-
 ## 🚀 How to Run
 1. Clone this repository.
 2. Download the CSV files from the Kaggle link above.
