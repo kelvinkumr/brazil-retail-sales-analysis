@@ -51,7 +51,7 @@ Built a "Master DataFrame" by linking disparate tables through a central bridge:
 Calculated custom business metrics that were not in the original data:
 * `delivery_time_days`: Speed of fulfillment.
 * `shipping_delta_days`: Accuracy of estimated delivery.
-* `distance_km`: Used the **Haversine Formula** to calculate the physical distance between 100k+ Sellers and Customers.
+
 
 ---
 
